@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="98acf1ff-5e4b-40b9-b505-d53e0738c923" name="web-测试" url="http://121.43.193.168">
+        <fileTransfer host="121.43.193.168" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2d51ee5c-eefc-4bfd-9811-d51a9f769812" name="rong360-app" url="http://39.108.166.32">
+        <fileTransfer host="39.108.166.32" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
