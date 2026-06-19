@@ -1,0 +1,97 @@
+﻿# ===== 编译产物 =====
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.tmp
+hs_err_pid*.log
+
+# ===== Maven =====
+target/
+build/
+out/
+bin/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Gradle（以防后续引入）=====
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== IDE - Eclipse =====
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.loadpath
+.recommenders/
+.externalToolBuilders/
+
+# ===== IDE - IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== IDE - VS Code =====
+.vscode/
+.classpath
+
+# ===== IDE - NetBeans =====
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== 系统/临时文件 =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 本地配置（不要提交敏感信息）=====
+application-local.yml
+application-local.properties
+application-local.yaml
+application-dev.yml
+application-dev.properties
+application-test.yml
+application-test.properties
+.env
+.env.*
+!.env.example
+
+# ===== 密钥 / 证书 =====
+*.pem
+*.key
+*.p12
+*.jks
+keystore
+truststore
